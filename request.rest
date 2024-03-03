@@ -1,0 +1,26 @@
+POST http://localhost:8080/api/tasks
+Content-Type: application/json
+
+{
+    "name": "teste",
+    "description": "teste",
+    "rating": "important",
+    "isDone": "done",
+    "color": "#fff"
+},
+
+###
+DELETE http://localhost:8080/api/tasks/65e3dbf6543533c10e52a00d
+
+
+###
+PUT http://localhost:8080/api/tasks/65e3dbcd543533c10e529fff
+Content-Type: application/json
+
+{
+    "name": "teste",
+    "description": "teste",
+    "rating": "important",
+    "isDone": "done",
+    "color": "#fff"
+},
